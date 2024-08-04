@@ -1,4 +1,4 @@
-//% color="#ffbb00" weight=100 icon=""
+//% color="#FFBB00" weight=100 icon=""
 namespace spriteMaker {
     let screen2: miniMenu.MenuItem[] = []
     let pixels: Image[] = []
