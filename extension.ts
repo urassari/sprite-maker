@@ -1,5 +1,5 @@
 //% color="##ffbb00" weight=100 icon=""
-namespace hello {
+namespace spriteMaker {
     let screen2: miniMenu.MenuItem[] = []
     let pixels: Image[] = []
     let finished_image: Image = null
@@ -10,7 +10,7 @@ namespace hello {
     let transparent = 0
     let being_used = false
     let animation2 = 0
-    function draw_input(myImage: Image) {
+    function drawImage(myImage: Image) {
         screen2 = []
         pixels = []
         finished_image = img`
