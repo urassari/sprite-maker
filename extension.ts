@@ -125,6 +125,7 @@ namespace spriteMaker {
                 being_used = false
             })
         }
+        myMenu.close()
         return finished_image
     }
     controller.menu.onEvent(ControllerButtonEvent.Pressed, function () {
