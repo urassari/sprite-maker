@@ -11,6 +11,7 @@ namespace spriteMaker {
     let being_used = false
     let animation2 = 0
     //% block
+    //% myImage.shadow=screen_image_picker
     export function drawImage(myImage: Image) {
         screen2 = []
         pixels = []
