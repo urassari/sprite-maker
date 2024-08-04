@@ -10,7 +10,7 @@ namespace spriteMaker {
     let transparent = 0
     let being_used = false
     let animation2 = 0
-    function drawImage(myImage: Image) {
+    export function drawImage(myImage: Image) {
         screen2 = []
         pixels = []
         finished_image = img`
